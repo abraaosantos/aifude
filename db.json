@@ -1,0 +1,54 @@
+{
+	"restaurantes": [
+		{
+			"id": 1,
+			"nomeEstabelecimento": "BDC",
+			"descricao": "Comida Regional da melhor qualidade",
+			"cardapio": [
+				{
+					"idProdutoCardapio": 1,
+					"nomeProduto": "Carne de Sol na Nata",
+					"categoria": "refeição",
+					"valor": "34.90",
+					"descricao": "Suculenta carne de sol acompanhada de cuscuz seco, macaxeira e feijão",
+					"tempoPreparo": "30min",
+					"qtdPessoasServidas": 3
+				},
+				{
+					"idProdutoCardapio": 2,
+					"nomeProduto": "Filé de tilápia",
+					"categoria": "refeição",
+					"valor": "20.90",
+					"descricao": "Filé de tilápia diretamente do açude velho, acompanhado de cuscuz seco, macaxeira e feijão",
+					"tempoPreparo": "20min",
+					"qtdPessoasServidas": 2
+				}
+			]
+		},
+		{
+			"id": 2,
+			"nomeEstabelecimento": "Lindo Olhar",
+			"descricao": "Coma até passar mal... e nem demora tanto...", 
+			"cardapio": [
+				{
+					"idProdutoCardapio": 1,
+					"nomeProduto": "Bata recheada",
+					"categoria": "podrão",
+					"valor": "15.90",
+					"descricao": "Batata inglesa misturada com tudo que é bom",
+					"tempoPreparo": "30min",
+					"qtdPessoasServidas": 1
+				},
+				{
+					"idProdutoCardapio": 2,
+					"nomeProduto": "A la Rodrigo",
+					"categoria": "podrão",
+					"valor": "10.90",
+					"descricao": "Sanduíche com tudo que você imaginar. É uma nova categoria de X-tudo onde o 'tudo' é tudo mesmo",
+					"tempoPreparo": "20min",
+					"qtdPessoasServidas": 1
+				}
+			]
+		}
+	]
+}

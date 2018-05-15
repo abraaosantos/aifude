@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Restaurantes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let restaurante of restaurantes" (click)="viewCardapio($event, restaurante)">
+      <ion-icon [name]="'restaurant'" item-start></ion-icon>
+      {{restaurante.nomeEstabelecimento}}
+      <div class="item-note" item-end>
+        {{restaurante.descricao}}
+      </div>
+    </button>
+  </ion-list>
+  
+</ion-content>
